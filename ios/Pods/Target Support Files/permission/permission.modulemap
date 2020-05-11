@@ -1,0 +1,6 @@
+module permission {
+  umbrella header "permission-umbrella.h"
+
+  export *
+  module * { export * }
+}

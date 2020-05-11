@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="release5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/google_maps_flutter/intermediates/intermediate-jars/release/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/google_maps_flutter/intermediates/intermediate-jars/release/res.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
