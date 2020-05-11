@@ -71,10 +71,12 @@ class MapPageState extends State<MapPage> {
                   .snapshots(),
               builder: (context, snapshot) {
                 if (!snapshot.hasData) {
+                  print("No data");
                   return Image.asset("assets/no_internet_connection.png");
                 } else if (snapshot.data['DroneLatLng'] != null &&
                     snapshot.data['ReceiverLatLng'] != null &&
                     snapshot.data['SenderLatLng'] != null) {
+                  print("Entered map");
                   GeoPoint droneLatLng = snapshot.data['DroneLatLng'];
                   GeoPoint receiverLatLng = snapshot.data['ReceiverLatLng'];
                   GeoPoint senderLatLng = snapshot.data['SenderLatLng'];
